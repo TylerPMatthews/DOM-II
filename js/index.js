@@ -366,3 +366,12 @@ myFooter.addEventListener("dblclick", function (event) {
 myFooterP.addEventListener("dblclick", function (event) {
   myFooterP.style.color = "black";
 });
+
+//grab background
+const back = document.querySelector('body')
+//change to red on click
+back.addEventListener('keydown',function(event){
+if(event.keyCode === 32){
+  back.style.backgroundColor='red '
+}
+})
